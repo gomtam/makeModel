@@ -5,11 +5,11 @@ from tqdm import tqdm
 # COCO 클래스 ID (홈 CCTV용으로 선택) - 정확한 ID로 수정
 홈_CCTV_클래스 = {
     '사람': [1],                     # person
-    '반려동물': [16, 17],             # cat, dog  
-    '위험물체': [44, 77],             # knife, scissors
-    '택배상자': [25, 27, 29],         # backpack, handbag, suitcase
-    '귀중품': [63, 64, 65, 67, 68],   # laptop, mouse, remote, keyboard, cell phone
-    '가구': [56, 57, 59, 60, 61, 62] # chair, couch, bed, dining table, toilet, tv
+    '반려동물': [17, 18],             # cat, dog  
+    '위험물체': [49, 87],             # knife, scissors (정확한 ID)
+    '택배상자': [27, 31, 33],         # backpack, handbag, suitcase (정확한 ID)
+    '귀중품': [73, 74, 75, 76, 77],   # laptop, mouse, remote, keyboard, cell phone (정확한 ID)
+    '가구': [62, 63, 65, 67, 70, 72] # chair, couch, bed, dining table, toilet, tv (정확한 ID)
 }
 
 # ID 목록 평면화
