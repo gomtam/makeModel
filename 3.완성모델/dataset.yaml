@@ -1,0 +1,30 @@
+
+# 홈 CCTV 객체 인식 데이터셋
+path: /content/HomeCCTV_Project/data
+train: images
+val: images
+
+# 클래스 수
+nc: 19
+
+# 클래스 이름
+names:
+  0: person
+  1: cat
+  2: dog
+  3: knife
+  4: scissors
+  5: backpack
+  6: handbag
+  7: suitcase
+  8: laptop
+  9: mouse
+  10: remote
+  11: keyboard
+  12: cell phone
+  13: chair
+  14: couch
+  15: bed
+  16: dining table
+  17: toilet
+  18: tv
